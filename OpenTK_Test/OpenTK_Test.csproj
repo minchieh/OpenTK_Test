@@ -54,10 +54,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThreeAxis_GLControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThreeAxis_GLControl.Designer.cs">
+      <DependentUpon>ThreeAxis_GLControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThreeAxis_GLControl.resx">
+      <DependentUpon>ThreeAxis_GLControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
